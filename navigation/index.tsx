@@ -13,10 +13,11 @@ import {
   MaterialCommunityIcons,
   MaterialIcons,
 } from "@expo/vector-icons";
+import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 
 import NotFoundScreen from "../screens/NotFoundScreen";
 import { RootStackParamList } from "../types";
-import BottomTabNavigator from "./BottomTabNavigator";
+import BottomTabNavigator from "./MainTabNavigator";
 import LinkingConfiguration from "./LinkingConfiguration";
 
 // If you are not familiar with React Navigation, we recommend going through the
